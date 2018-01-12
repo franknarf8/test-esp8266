@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
-#include "sensitiveinfo.h"
+#include "wificreds.h"
 
 void connect() {
     Serial.print("Connecting to ");
